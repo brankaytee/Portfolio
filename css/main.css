@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'monsterrat';
+  src: url('fonts/Montserrat/Montserrat-Regular.ttf')
+}
+@font-face {
+  font-family: 'AvenirNextBold';
+  src: url('fonts/avenir-next/AvenirNextLTPro-Bold.otf')
+}
+
+@font-face {
+  font-family: 'AvenirNextRegular';
+  src: url('fonts/avenir-next/AvenirNextLTPro-Regular.otf')
+}
+
+body{
+  font-family: monsterrat;
+}
+
+h1{
+  font-family: AvenirNextBold;
+  font-size: 5rem;
+  color: #032245;
+}
+
+h2{
+  font-family: AvenirNextRegular;
+  font-size: 3rem;
+  color: #56667a;
+}
+
+p{
+  font-family: monsterrat;
+  color: #343e4a;
+  font-size: 1.25rem;
+}
+
+.category-row{
+  box-sizing: border-box;
+  /* background-color: #576996; */
+  padding: 10rem;
+  /* border: 3px solid #e0e0e0; */
+}
+
+#banner{
+
+}
+
+#colors{
+}
+  #colors .color-block{
+    padding: 5rem;
+  }
+  #colors .item-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+  }
+    #colors .item-wrapper #first-color{
+      background-color: #032245;
+    }
+      #colors .item-wrapper #first-color p{
+        color: #ababab;
+      }
+    #colors .item-wrapper #second-color{
+      background-color: #56667a;
+    }
+      #colors .item-wrapper #second-color p{
+        color: #ababab;
+      }
+    #colors .item-wrapper #third-color{
+      background-color: #343e4a;
+    }
+      #colors .item-wrapper #third-color p{
+        color: #ababab;
+      }
+    #colors .item-wrapper #fourth-color{
+      background-color: #ababab;
+    }
+      #colors .item-wrapper #fourth-color p{
+        /* color: #ababab; */
+      }
