@@ -164,6 +164,12 @@ a{
     display: flex;
     justify-content: space-around;
   }
+    #buttons .item-wrapper .button-pack{
+      display: flex;
+    }
+      #buttons .item-wrapper .button-pack .left-button{
+        padding-right: 3rem;
+      }
 /* buttons */
 .button-confirm{
   border: 2px solid #032245;
