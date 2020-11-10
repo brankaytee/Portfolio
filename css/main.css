@@ -162,10 +162,11 @@ a{
   }
   #buttons .item-wrapper{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
   }
     #buttons .item-wrapper .button-pack{
       display: flex;
+      flex-wrap: wrap;
     }
       #buttons .item-wrapper .button-pack .left-button{
         padding-right: 3rem;
