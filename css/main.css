@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'monsterrat';
+  font-family: 'MonsterratRegular';
   src: url('fonts/Montserrat/Montserrat-Regular.ttf')
 }
 @font-face {
@@ -13,7 +13,7 @@
 }
 
 body{
-  font-family: monsterrat;
+  font-family: MonsterratRegular;
 }
 
 h1{
@@ -28,10 +28,24 @@ h2{
   color: #56667a;
 }
 
+h3{
+  font-family: AvenirNextRegular;
+  font-size: 1.5rem;
+  color: #032245;
+}
+
 p{
-  font-family: monsterrat;
+  font-family: MonsterratRegular;
   color: #343e4a;
   font-size: 1.25rem;
+}
+
+strong{
+  color: #343e4a;
+}
+
+a{
+  text-decoration: none;
 }
 
 .category-row{
@@ -53,6 +67,7 @@ p{
   #colors .item-wrapper{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding-top: 5rem;
   }
     #colors .item-wrapper #first-color{
@@ -79,3 +94,102 @@ p{
       #colors .item-wrapper #fourth-color p{
         /* color: #ababab; */
       }
+
+#typography{
+
+}
+  #typography .item-wrapper{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #typography .item-wrapper .heading-wrapper{
+
+  }
+    #typography .item-wrapper .heading-wrapper:nth-child(1) p:nth-child(7){
+      font-family: AvenirNextBold;
+    }
+    #typography .item-wrapper .heading-wrapper:nth-child(2) p:nth-child(7){
+      font-family: AvenirNextRegular;
+    }
+    #typography .item-wrapper .heading-wrapper:nth-child(3) p:nth-child(7){
+      font-family: AvenirNextRegular;
+    }
+     #color-pack-one p{
+      background-color: #032245;
+      color: #ababab;
+      padding: 1rem;
+      width: 6rem;
+      text-align: center;
+    }
+    #typography .item-wrapper .heading-wrapper #color-pack-two p{
+      background-color: #56667a;
+      color: #ababab;
+      padding: 1rem;
+      width: 6rem;
+      text-align: center;
+    }
+    #typography .item-wrapper .heading-wrapper #color-pack-three p{
+      background-color: #032245;
+      color: #ababab;
+      padding: 1rem;
+      width: 6rem;
+      text-align: center;
+    }
+    #typography .item-wrapper .heading-wrapper #color-pack-four p{
+      background-color: #343e4a;
+      color: #ababab;
+      padding: 1rem;
+      width: 6rem;
+      text-align: center;
+    }
+
+    #typography .item-wrapper .heading-wrapper #top-heading{
+      padding-bottom: 3rem;
+    }
+      #typography .item-wrapper .heading-wrapper #top-heading h2{
+        color: #032245;
+      }
+      #typography .item-wrapper .heading-wrapper #top-heading h3{
+        color: #032245;
+      }
+#buttons{
+
+}
+  #buttons h2{
+    padding-bottom: 10rem;
+  }
+  #buttons .item-wrapper{
+    display: flex;
+    justify-content: space-around;
+  }
+/* buttons */
+.button-confirm{
+  border: 2px solid #032245;
+  padding: 0.75em;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  text-align: center;
+  font-weight: bold;
+  color: #032245;
+  box-sizing: border-box;
+}
+  .button-confirm:hover{
+    background-color: #343e4a;
+    color: white;
+  }
+.button-cancel{
+  border: 2px solid #ababab;
+  padding: 0.75em;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  text-align: center;
+  font-weight: bold;
+  color: #ababab;
+  box-sizing: border-box;
+}
+  .button-cancel:hover{
+    background-color: #ababab;
+    color: white;
+  }
