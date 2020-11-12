@@ -1,3 +1,19 @@
+/* About Page */
+#about{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 7rem;
+}
+  #about .biography{
+    max-width: 45%;
+  }
+  #about .design-titles{
+    text-align: right;
+    color: #56667a;
+  }
+/* End of about page */
+
 .project-grid{
   display: grid;
   grid-template-columns: auto auto auto;
