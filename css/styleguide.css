@@ -34,6 +34,11 @@ h3{
   color: #032245;
 }
 
+h4{
+  font-family: AvenirNextRegular;
+  font-size: 1.25rem;
+}
+
 p{
   font-family: MonsterratRegular;
   color: #343e4a;
