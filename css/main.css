@@ -58,6 +58,18 @@ a{
 #banner{
 
 }
+  #banner nav{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+    #banner nav a{
+      color: #ababab;
+      padding-right: 5rem;
+    }
+    #banner nav a:hover{
+      color: #56667a;
+    }
 
 #colors{
 }
@@ -96,7 +108,6 @@ a{
       }
 
 #typography{
-
 }
   #typography .item-wrapper{
     display: flex;
@@ -163,9 +174,11 @@ a{
   #buttons .item-wrapper{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
     #buttons .item-wrapper .button-pack{
       display: flex;
+      flex-wrap: wrap;
     }
       #buttons .item-wrapper .button-pack .left-button{
         padding-right: 3rem;
@@ -174,8 +187,8 @@ a{
 .button-confirm{
   border: 2px solid #032245;
   padding: 0.75em;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 5em;
+  padding-right: 5em;
   text-align: center;
   font-weight: bold;
   color: #032245;
@@ -188,8 +201,8 @@ a{
 .button-cancel{
   border: 2px solid #ababab;
   padding: 0.75em;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 5.3em;
+  padding-right: 5.3em;
   text-align: center;
   font-weight: bold;
   color: #ababab;
@@ -199,3 +212,66 @@ a{
     background-color: #ababab;
     color: white;
   }
+
+/* flexibility */
+@media only screen and (max-width: 1000px) {
+  body, html {
+    overflow-x:hidden;
+  }
+  h1{
+    font-size: 3.5rem;
+    margin: ;
+  }
+  #banner{
+    padding-bottom: 0;
+  }
+  #banner nav {
+    flex-direction: column;
+    align-content: flex-end;
+    padding-bottom: 5rem;
+  }
+  #banner nav a{
+    padding-bottom: 2rem;
+    text-align: right;
+    padding-right: 1rem;
+    padding-top: 0rem;
+  }
+  .category-row{
+    padding: 0rem;
+    padding-left: 1rem;
+    padding-bottom: 11rem;
+    padding-top: 0rem;
+  }
+  #colors .item-wrapper{
+    justify-content: flex-start;
+    padding-top: 0rem;
+  }
+    #colors h2{
+      padding-bottom: 0rem;
+    }
+    #colors .item-wrapper .color-block{
+      margin-bottom: 1rem;
+    }
+  #typography h2{
+    padding-bottom: 0rem;
+  }
+  #typography .item-wrapper{
+    justify-content: flex-start;
+    padding-left: 1rem;
+  }
+    #typography .item-wrapper .heading-wrapper{
+      padding-top: 2rem;
+    }
+      #typography .item-wrapper .heading-wrapper #top-heading{
+        padding-bottom: 0rem;
+      }
+  #buttons{
+    padding-bottom: 4rem;
+  }
+  #buttons h2{
+    padding-bottom: 2rem;
+  }
+    #buttons .item-wrapper .left-button{
+      margin-bottom: 4rem;
+    }
+}
