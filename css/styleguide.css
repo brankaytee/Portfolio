@@ -14,24 +14,25 @@
 
 body{
   font-family: MonsterratRegular;
+  background-color: black;
 }
 
 h1{
   font-family: AvenirNextBold;
   font-size: 5rem;
-  color: #032245;
+  color: #d1cd92;
 }
 
 h2{
   font-family: AvenirNextRegular;
   font-size: 3rem;
-  color: #56667a;
+  color: #91accf;
 }
 
 h3{
   font-family: AvenirNextRegular;
   font-size: 1.5rem;
-  color: #032245;
+  color: #91accf;
 }
 
 h4{
@@ -41,8 +42,8 @@ h4{
 
 p{
   font-family: MonsterratRegular;
-  color: #343e4a;
-  font-size: 1.25rem;
+  color: #ababab;
+  font-size: 1rem;
 }
 
 strong{
@@ -77,6 +78,7 @@ a{
       color: #56667a;
     }
 
+/* color section */
 #colors{
 }
   #colors .color-block{
@@ -89,30 +91,37 @@ a{
     padding-top: 5rem;
   }
     #colors .item-wrapper #first-color{
-      background-color: #032245;
+      background-color: #d1cd92;
     }
       #colors .item-wrapper #first-color p{
-        color: #ababab;
+        color: #000000;
       }
     #colors .item-wrapper #second-color{
-      background-color: #56667a;
+      background-color: #065ec2;
     }
       #colors .item-wrapper #second-color p{
-        color: #ababab;
+        color: #000000;
       }
     #colors .item-wrapper #third-color{
-      background-color: #343e4a;
+      background-color: #91accf;
     }
       #colors .item-wrapper #third-color p{
-        color: #ababab;
+        color: #000000;
       }
     #colors .item-wrapper #fourth-color{
       background-color: #ababab;
     }
       #colors .item-wrapper #fourth-color p{
-        /* color: #ababab; */
+        color: #000000;
+      }
+    #colors .item-wrapper #fifth-color{
+      background-color: #ffffff;
+    }
+      #colors .item-wrapper #fifth-color p{
+        color: #000000;
       }
 
+/* typography section */
 #typography{
 }
   #typography .item-wrapper{
@@ -134,29 +143,29 @@ a{
       font-family: AvenirNextRegular;
     }
      #color-pack-one p{
-      background-color: #032245;
-      color: #ababab;
+      background-color: #d1cd92;
+      color: #000000;
       padding: 1rem;
       width: 6rem;
       text-align: center;
     }
     #typography .item-wrapper .heading-wrapper #color-pack-two p{
-      background-color: #56667a;
-      color: #ababab;
+      background-color: #91accf;
+      color: #000000;
       padding: 1rem;
       width: 6rem;
       text-align: center;
     }
     #typography .item-wrapper .heading-wrapper #color-pack-three p{
-      background-color: #032245;
-      color: #ababab;
+      background-color: #91accf;
+      color: #000000;
       padding: 1rem;
       width: 6rem;
       text-align: center;
     }
     #typography .item-wrapper .heading-wrapper #color-pack-four p{
-      background-color: #343e4a;
-      color: #ababab;
+      background-color: #ababab;
+      color: #000000;
       padding: 1rem;
       width: 6rem;
       text-align: center;
@@ -165,11 +174,11 @@ a{
     #typography .item-wrapper .heading-wrapper #top-heading{
       padding-bottom: 3rem;
     }
-      #typography .item-wrapper .heading-wrapper #top-heading h2{
-        color: #032245;
+      /* #typography .item-wrapper .heading-wrapper #top-heading h2{
+        color: #91accf;
       }
       #typography .item-wrapper .heading-wrapper #top-heading h3{
-        color: #032245;
+        color: #91accf; */
       }
 #buttons{
 
@@ -191,32 +200,34 @@ a{
       }
 /* buttons */
 .button-confirm{
-  border: 2px solid #032245;
+  border: 2px solid #ffffff;
   padding: 0.75em;
   padding-left: 5em;
   padding-right: 5em;
   text-align: center;
   font-weight: bold;
-  color: #032245;
+  color: #ffffff;
   box-sizing: border-box;
 }
   .button-confirm:hover{
-    background-color: #343e4a;
-    color: white;
+    background-color: #ffffff;
+    border: 2px solid #065ec2;
+    color: #065ec2;
   }
 .button-cancel{
-  border: 2px solid #ababab;
+  border: 2px solid #065ec2;
   padding: 0.75em;
   padding-left: 5.3em;
   padding-right: 5.3em;
   text-align: center;
   font-weight: bold;
-  color: #ababab;
+  color: #065ec2;
   box-sizing: border-box;
 }
   .button-cancel:hover{
-    background-color: #ababab;
-    color: white;
+    background-color: #065ec2;
+    border: 2px solid #ffffff;
+    color: #ffffff;
   }
 
 /* flexibility */

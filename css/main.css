@@ -1,8 +1,10 @@
 /* About Page */
 #about{
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: flex-end;
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
   /* margin-top: 7rem; */
 }
   .category-row-about{
@@ -10,39 +12,28 @@
     padding-right: 10rem;
   }
   #about .biography{
-    max-width: 45%;
+    max-width: 25%;
+    /* flex-basis: 100%; */
   }
-    #about .biography h4:nth-child(3){
-      margin-bottom: 6rem;
-    }
-  #about .design-titles{
-    text-align: right;
-    color: #56667a;
-  }
-    #about .biography-image img{
-      width: 75%;
-    }
+  /* #about .biography-image{
+   padding-right: 3rem;
+  } */
 /* End of about page */
 
 /* Project Page */
 .project-grid{
   display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: center;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
   margin: 0rem 10rem 0rem 10rem;
+  grid-gap: 5rem;
 }
   .project-grid .grid-item{
     /* padding: 15rem 23rem 15rem 23rem; */
     background-color: grey;
     /* border: 1px solid black; */
-    margin: 0.25rem;
+    margin: 0rem;
   }
-    .project-grid .grid-item .project-text{
-      text-align: center;
-    }
-      .project-grid .grid-item .project-text p{
-        color: blue;
-      }
     .project-grid .grid-item img{
       width: 100%;
       height: 100%;
