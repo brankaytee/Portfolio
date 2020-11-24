@@ -20,19 +20,26 @@ body{
 h1{
   font-family: AvenirNextBold;
   font-size: 5rem;
-  color: #d1cd92;
+  /* color: #d1cd92; */
+  /* color: #c49464; */
+  /* color: #ababab; */
+  color: #70788a;
 }
 
 h2{
-  font-family: AvenirNextRegular;
+  font-family: AvenirNextBold;
   font-size: 3rem;
-  color: #91accf;
+  /* color: #91accf; */
+  /* color: #8097ab; */
+  color: #b2b6bf;
 }
 
 h3{
   font-family: AvenirNextRegular;
   font-size: 1.5rem;
-  color: #91accf;
+  /* color: #91accf; */
+  /* color: #8097ab; */
+  color: #b2b6bf;
 }
 
 h4{
@@ -42,8 +49,9 @@ h4{
 
 p{
   font-family: MonsterratRegular;
-  color: #ababab;
+  color: #b2b6bf;
   font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 strong{
@@ -57,7 +65,7 @@ a{
 .category-row{
   box-sizing: border-box;
   /* background-color: #576996; */
-  padding: 10rem;
+  padding: 10rem 10rem 3rem 10rem;
   /* border: 3px solid #e0e0e0; */
 }
 
