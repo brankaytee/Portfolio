@@ -43,8 +43,8 @@
 
 /* Project Page */
 .project-grid{
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  /* grid-template-columns: auto auto; */
   justify-content: space-around;
   margin: 0rem 10rem 0rem 10rem;
   grid-gap: 5rem;
@@ -66,14 +66,24 @@
       position: relative;
     }
       .project-grid .grid-item img:hover{
-        opacity: 0.5;
+        opacity: 0.2;
       }
+      .project-grid .grid-item:hover .overlay-one{
+        opacity: 1;
+      }
+      .project-grid .grid-item:hover .overlay-two{
+        opacity: 1;
+      }
+      .project-grid .grid-item:hover .overlay-three{
+        opacity: 1;
+      }
+
 /* overlay */
 .overlay-one{
   position: absolute;
   top: 60rem;
   left: 13rem;
-  opacity: 1;
+  opacity: 0;
 }
   .overlay-one:hover{
     opacity: 1;
@@ -82,9 +92,18 @@
   position: absolute;
   top: 60rem;
   left: 85rem;
-  opacity: 1;
+  opacity: 0;
 }
   .overlay-two:hover{
-
+    opacity: 1;
+  }
+.overlay-three{
+  position: absolute;
+  top: 132rem;
+  left: 49rem;
+  opacity: 0;
+}
+  .overlay-three:hover{
+    opacity: 1;
   }
 /* Project Page ends here */
