@@ -25,6 +25,11 @@ h1{
   /* color: #ababab; */
   color: #70788a;
 }
+#banner h1{
+  border: 0.25rem solid #70788a;
+  padding: 3rem;
+  text-align: center;
+}
 
 h2{
   font-family: AvenirNextBold;
