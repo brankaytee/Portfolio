@@ -77,6 +77,10 @@
       .project-grid .grid-item:hover .overlay-three{
         opacity: 1;
       }
+      /* hover for text on overlay to affect image transparency */
+      .project-grid .grid-item:hover img{
+        opacity: 0.2;
+      }
 
 /* overlay */
 .overlay-one{
