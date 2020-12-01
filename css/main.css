@@ -110,4 +110,30 @@
   .overlay-three:hover{
     opacity: 1;
   }
-/* Project Page ends here */
+/* Overview Project Page ends here */
+
+/* project descriptions */
+.project-detail{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+  .project-detail .finished-project img{
+    max-width: 75rem;
+  }
+.project-detail .process-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+  .project-detail .process-wrapper .process-img{
+    margin-right: 2rem;
+  }
+    .project-detail .process-wrapper img{
+      max-width: 30rem;
+      height: cover;
+      object-fit: cover;
+    }
+    .project-detail .process-wrapper p{
+      text-align: center;
+    }
