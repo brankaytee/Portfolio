@@ -118,6 +118,9 @@
   align-items: center;
   flex-direction: column;
 }
+  .project-detail h2{
+    margin-top: 7rem;
+  }
   .project-detail .finished-project img{
     max-width: 75rem;
   }
