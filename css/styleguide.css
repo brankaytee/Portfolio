@@ -343,9 +343,16 @@ a{
     padding-right: 1rem;
     padding-top: 0rem;
   }
+  .project-grid{
+    flex-direction: column;
+    align-items: center;
+  }
+    .grid-item .project-image{
+      max-width: 30rem;
+    }
   .category-row{
     padding: 0rem;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
     padding-bottom: 11rem;
     padding-top: 0rem;
   }
