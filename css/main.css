@@ -227,4 +227,32 @@
     flex-basis: 100%;
     text-align: center;
   }
+  .project-grid{
+    flex-direction: column;
+    align-items: center;
+  }
+    .grid-item .project-image{
+      max-width: 30rem;
+    }
+  #graphic-title{
+    padding-bottom: 0rem;
+  }
+  .overlay-one{
+    display: none;
+  }
+  .overlay-two{
+    display: none;
+  }
+  .overlay-three{
+    display: none;
+  }
+  .project-detail .finished-project img{
+    max-width: 30rem;
+  }
+  #project3 .finished-project-first img{
+    max-width: 25rem;
+  }
+  #project3 .finished-project-second img{
+    max-width: 25rem;
+  }
 }
