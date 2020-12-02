@@ -77,19 +77,19 @@ a{
 #banner{
 
 }
-  #banner nav{
+  nav{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
   }
-    #banner nav a{
+    nav a{
       color: #ababab;
       padding-right: 5rem;
       font-size: 1.25rem;
     }
-    #banner nav a:hover{
-      color: #56667a;
-    }
+      nav a:hover{
+        color: #56667a;
+      }
 
 /* color section */
 #colors{
@@ -103,26 +103,26 @@ a{
     flex-wrap: wrap;
     padding-top: 5rem;
   }
-    #colors .item-wrapper #first-color{
+    /* #colors .item-wrapper #first-color{
       background-color: #d1cd92;
     }
       #colors .item-wrapper #first-color p{
         color: #000000;
-      }
+      } */
     #colors .item-wrapper #second-color{
-      background-color: #065ec2;
+      background-color: #4256a1;
     }
       #colors .item-wrapper #second-color p{
         color: #000000;
       }
     #colors .item-wrapper #third-color{
-      background-color: #91accf;
+      background-color: #70788a;
     }
       #colors .item-wrapper #third-color p{
         color: #000000;
       }
     #colors .item-wrapper #fourth-color{
-      background-color: #ababab;
+      background-color: #b2b6bf;
     }
       #colors .item-wrapper #fourth-color p{
         color: #000000;
@@ -156,28 +156,28 @@ a{
       font-family: AvenirNextRegular;
     }
      #color-pack-one p{
-      background-color: #d1cd92;
+      background-color: #70788a;
       color: #000000;
       padding: 1rem;
       width: 6rem;
       text-align: center;
     }
     #typography .item-wrapper .heading-wrapper #color-pack-two p{
-      background-color: #91accf;
+      background-color: #b2b6bf;
       color: #000000;
       padding: 1rem;
       width: 6rem;
       text-align: center;
     }
     #typography .item-wrapper .heading-wrapper #color-pack-three p{
-      background-color: #91accf;
+      background-color: #b2b6bf;
       color: #000000;
       padding: 1rem;
       width: 6rem;
       text-align: center;
     }
     #typography .item-wrapper .heading-wrapper #color-pack-four p{
-      background-color: #ababab;
+      background-color: #b2b6bf;
       color: #000000;
       padding: 1rem;
       width: 6rem;
@@ -191,8 +191,81 @@ a{
         color: #91accf;
       }
       #typography .item-wrapper .heading-wrapper #top-heading h3{
-        color: #91accf; */
-      }
+        color: #91accf;
+      } */
+
+/* navigation section */
+#navigation{
+
+}
+  #navigation h2{
+    padding-bottom: 10rem;
+  }
+  #navigation .item-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+/* navigation section ends here */
+
+/* image section */
+#images{
+
+}
+  #images img{
+    max-width: 66.5rem;
+  }
+  #images h2{
+    padding-bottom: 10rem;
+  }
+  #images .item-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #images .grid-item img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+  }
+  #images .grid-item img:hover{
+    opacity: 0.2;
+  }
+  #images .grid-item:hover .overlay-one{
+    opacity: 1;
+  }
+  #images .grid-item:hover .overlay-two{
+    opacity: 1;
+  }
+  #images .grid-item:hover .overlay-three{
+    opacity: 1;
+  }
+  /* hover for text on overlay to affect image transparency */
+  #images .grid-item:hover img{
+    opacity: 0.2;
+  }
+  /* overlay */
+  #images .overlay-one{
+    position: absolute;
+    top: 250rem;
+    left: 50rem;
+    opacity: 0;
+  }
+    #images .overlay-one:hover{
+      opacity: 1;
+    }
+    #images .overlay-title{
+      margin-bottom: 0rem;
+      padding-bottom: 0rem;
+    }
+    #images .overlay-description{
+      margin-top: 0rem;
+      padding-top:0rem
+    }
+/* image section ends here */
+
+/* button section */
 #buttons{
 
 }
@@ -215,8 +288,8 @@ a{
 .button-confirm{
   border: 2px solid #ffffff;
   padding: 0.75em;
-  padding-left: 5em;
-  padding-right: 5em;
+  padding-left: 6em;
+  padding-right: 6em;
   text-align: center;
   font-weight: bold;
   color: #ffffff;
@@ -224,21 +297,21 @@ a{
 }
   .button-confirm:hover{
     background-color: #ffffff;
-    border: 2px solid #065ec2;
-    color: #065ec2;
+    border: 2px solid #6179d4;
+    color: #6179d4;
   }
 .button-cancel{
-  border: 2px solid #065ec2;
+  border: 2px solid #6179d4;
   padding: 0.75em;
-  padding-left: 5.3em;
-  padding-right: 5.3em;
+  padding-left: 6.2em;
+  padding-right: 6.2em;
   text-align: center;
   font-weight: bold;
-  color: #065ec2;
+  color: #6179d4;
   box-sizing: border-box;
 }
   .button-cancel:hover{
-    background-color: #065ec2;
+    background-color: #6179d4;
     border: 2px solid #ffffff;
     color: #ffffff;
   }
@@ -301,7 +374,6 @@ a{
   #buttons h2{
     padding-bottom: 2rem;
   }
-    #buttons .item-wrapper .left-button{
-      margin-bottom: 4rem;
-    }
-}
+      #buttons .item-wrapper .left-button{
+        margin-bottom: 4rem;
+      }

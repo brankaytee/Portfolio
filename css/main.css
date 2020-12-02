@@ -17,6 +17,9 @@
   justify-content: center;
   align-items: center;
 }
+  .bio-wrapper .biography{
+    min-width: 20rem;
+  }
 .my-name{
   margin-top: 3rem;
   text-align: center;
@@ -128,9 +131,18 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+  flex-wrap: wrap;
+  width: 100%;
 }
+  .project-detail .programs{
+    margin-top: 1rem;
+  }
   .project-detail .process-wrapper .process-img{
-    margin-right: 2rem;
+    /* margin-right: 1rem;
+    margin-left: 1rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
     .project-detail .process-wrapper img{
       max-width: 30rem;
@@ -140,3 +152,36 @@
     .project-detail .process-wrapper p{
       text-align: center;
     }
+    .project-detail .process-wrapper i{
+      color: #b2b6bf;
+      align-content: center;
+    }
+ .project-buttons{
+   display: flex;
+   justify-content: center;
+   margin-top: 10rem;
+   /* margin-left: 3rem;
+   margin-right: 3rem; */
+   /* width: 100%; */
+   margin-bottom: 6rem;
+   margin-top: 15rem;
+ }
+  /* .project-buttons i{
+    color: #b2b6bf;
+    font-size: 3rem;
+  } */
+  .project-buttons .left-button{
+    margin-right: 2rem;
+  }
+  .project-buttons .right-button{
+    margin-left: 2rem;
+  }
+ #project3 .finished-project-first{
+   margin-bottom: 2rem;
+ }
+   #project3 .finished-project-first img{
+     max-width: 60rem;
+   }
+   #project3 .finished-project-second img{
+     max-width: 60rem;
+   }
