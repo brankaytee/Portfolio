@@ -36,8 +36,8 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-right: 30rem;
-  margin-left: 30rem;
+  /* margin-right: 30rem;
+  margin-left: 30rem; */
 }
   .program-labels p{
 
@@ -151,6 +151,7 @@
     }
     .project-detail .process-wrapper p{
       text-align: center;
+      max-width: 35rem;
     }
     .project-detail .process-wrapper i{
       color: #b2b6bf;
@@ -165,16 +166,17 @@
    /* width: 100%; */
    margin-bottom: 6rem;
    margin-top: 15rem;
+   align-items: center;
  }
   /* .project-buttons i{
     color: #b2b6bf;
     font-size: 3rem;
   } */
   .project-buttons .left-button{
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
   }
   .project-buttons .right-button{
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
   }
  #project3 .finished-project-first{
    margin-bottom: 2rem;
@@ -185,3 +187,44 @@
    #project3 .finished-project-second img{
      max-width: 60rem;
    }
+
+/* flexibility */
+@media only screen and (max-width: 1000px) {
+  /* banner */
+  h1{
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 2.5rem;
+  }
+  /* project description */
+  .project-buttons{
+    flex-direction: column;
+  }
+  .project-buttons .left-button{
+    margin-bottom: 6rem;
+  }
+  .process-img{
+    margin-top: 5rem;
+  }
+  .project-detail .process-wrapper p{
+    max-width: 20rem;
+  }
+  .project-buttons{
+    margin-top: 7rem;
+  }
+  /* about page */
+  .programs{
+    margin-top: 5rem;
+  }
+  .progam-labels{
+    flex-direction: column;
+    /* margin-left: 0;
+    margin-right: 0; */
+    align-items: center;
+  }
+  .program-labels p{
+    flex-basis: 100%;
+    text-align: center;
+  }
+}
