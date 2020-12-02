@@ -93,6 +93,7 @@ a{
 
 /* color section */
 #colors{
+  padding-top: 0;
 }
   #colors .color-block{
     padding: 5rem;
@@ -148,7 +149,8 @@ a{
     flex-wrap: wrap;
   }
   #typography .item-wrapper .heading-wrapper{
-
+    display: flex;
+    flex-direction: column;
   }
     #typography .item-wrapper .heading-wrapper:nth-child(1) p:nth-child(7){
       font-family: AvenirNextBold;
@@ -252,7 +254,7 @@ a{
   /* overlay */
   #images .overlay-one{
     position: absolute;
-    top: 250rem;
+    top: 290rem;
     left: 50rem;
     opacity: 0;
   }
@@ -286,7 +288,7 @@ a{
       flex-wrap: wrap;
     }
       #buttons .item-wrapper .button-pack .left-button{
-        padding-right: 3rem;
+        /* padding-right: 3rem; */
       }
 /* buttons */
 .button-confirm{
@@ -329,6 +331,9 @@ a{
     font-size: 3.5rem;
     margin: ;
   }
+  h2{
+    font-size: 2.5rem;
+  }
   #banner{
     padding-bottom: 0;
   }
@@ -356,41 +361,77 @@ a{
     padding-bottom: 11rem;
     padding-top: 0rem;
   }
+  #colors{
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+  }
   #colors .item-wrapper{
     justify-content: flex-start;
     padding-top: 0rem;
   }
     #colors h2{
       padding-bottom: 0rem;
+      text-align: center;
     }
     #colors .item-wrapper .color-block{
       margin-bottom: 1rem;
     }
-
+  #typography{
+    padding-bottom: 5rem;
+  }
   #typography h2{
     padding-bottom: 0rem;
   }
+  #typography .title h2{
+    text-align: center;
+  }
+  /* .category-row{
+    padding-bottom: 5rem;
+  } */
   #typography .item-wrapper{
     justify-content: flex-start;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
   }
     #typography .item-wrapper .heading-wrapper{
       padding-top: 2rem;
       flex-basis: 100%;
+      align-items: center;
+      margin-bottom: 3rem;
     }
       #typography .item-wrapper .heading-wrapper #top-heading{
         padding-bottom: 0rem;
       }
   #buttons{
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
   }
   #buttons h2{
     padding-bottom: 2rem;
+    text-align: center;
+  }
+  #buttons .item-wrapper .button-pack{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
       #buttons .item-wrapper .left-button{
         margin-bottom: 4rem;
       }
+  #navigation{
+    padding-bottom: 5rem;
+  }
+  #navigation h2{
+    padding-bottom: 0;
+    text-align: center;
+  }
   #navigation .item-wrapper nav{
     flex-direction: column;
+  }
+
+  #images h2{
+    padding-bottom: 0;
+    text-align: center;
+  }
+  #images{
+    padding-bottom: 3rem;
   }
 }
