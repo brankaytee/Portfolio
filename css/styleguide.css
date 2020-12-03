@@ -67,6 +67,17 @@ a{
   text-decoration: none;
 }
 
+ul{
+  margin-top: 10rem;
+  color: #b2b6bf;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+li{
+  margin-bottom: 1rem;
+}
+
 .category-row{
   box-sizing: border-box;
   /* background-color: #576996; */
@@ -136,6 +147,13 @@ a{
       flex-basis: 100%;
     }
       #colors .item-wrapper #fifth-color p{
+        color: #000000;
+      }
+    #colors .item-wrapper #ab-color{
+      background-color: #ababab;
+      flex-basis: 100%;
+    }
+      #colors .item-wrapper #ab-color p{
         color: #000000;
       }
 
