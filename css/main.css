@@ -121,6 +121,15 @@
   align-items: center;
   flex-direction: column;
 }
+  .project-detail .write-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    .project-detail .write-up{
+      max-width: 75rem;
+    }
   .project-detail h2{
     margin-top: 7rem;
   }
