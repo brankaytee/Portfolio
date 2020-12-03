@@ -187,6 +187,27 @@
    #project3 .finished-project-second img{
      max-width: 60rem;
    }
+/* contact page */
+#contact{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  #contact .contact-wrapper{
+    min-width: 30rem;
+    text-align: center;
+  }
+  #contact .contact-wrapper i{
+    color: #b2b6bf;
+  }
+  #contact .contact-wrapper .email-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #contact .contact-wrapper .email-wrapper i{
+    margin-right: 0.5rem;
+  }
 
 /* flexibility */
 @media only screen and (max-width: 1000px) {
