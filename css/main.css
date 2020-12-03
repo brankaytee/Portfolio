@@ -156,8 +156,8 @@
   }
     .project-detail .process-wrapper img{
       max-width: 30rem;
-      height: cover;
-      object-fit: cover;
+      /* height: cover;
+      object-fit: cover; */
     }
     .project-detail .process-wrapper p{
       text-align: center;
