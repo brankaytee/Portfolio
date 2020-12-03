@@ -216,7 +216,7 @@ a{
 
 /* image section */
 #images{
-
+  margin-bottom: 8rem;
 }
   #images img{
     max-width: 66.5rem;
@@ -322,6 +322,34 @@ a{
     color: #ffffff;
   }
 
+#footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 2rem;
+  margin-top: 15rem;
+}
+  #footer a{
+    color: #ababab;
+    /* padding-right: 5rem; */
+    font-size: 1.25rem;
+  }
+    #footer a:hover{
+      color: #56667a;
+    }
+    .footer-link{
+      margin-bottom: 2rem;
+    }
+  /* nav a{
+    color: #ababab;
+    padding-right: 5rem;
+    font-size: 1.25rem;
+  }
+    nav a:hover{
+      color: #56667a;
+    } */
+
 /* flexibility */
 @media only screen and (max-width: 1000px) {
   body, html {
@@ -426,5 +454,9 @@ a{
   }
   #images{
     padding-bottom: 3rem;
+  }
+  #footer{
+    flex-direction: column;
+    align-items: center;
   }
 }
