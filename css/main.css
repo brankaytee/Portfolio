@@ -40,15 +40,15 @@
 .project-grid .grid-item:hover img { opacity: 0.2; }
 
 /* overlay */
-.overlay-one { position: absolute; top: 60rem; left: 13rem; opacity: 0; }
+.overlay-one { position: absolute; top: 48rem; left: 13rem; opacity: 0; }
 
 .overlay-one:hover { opacity: 1; }
 
-.overlay-two { position: absolute; top: 60rem; left: 85rem; opacity: 0; }
+.overlay-two { position: absolute; top: 48rem; left: 65rem; opacity: 0; }
 
 .overlay-two:hover { opacity: 1; }
 
-.overlay-three { position: absolute; top: 132rem; left: 49rem; opacity: 0; }
+.overlay-three { position: absolute; top: 108rem; left: 39rem; opacity: 0; }
 
 .overlay-three:hover { opacity: 1; }
 
