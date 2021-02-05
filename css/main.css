@@ -22,35 +22,44 @@
 /* Project Page */
 .project-grid { display: flex; /* grid-template-columns: auto auto; */ justify-content: space-around; margin: 0rem 10rem 0rem 10rem; grid-gap: 5rem; }
 
-.project-grid .grid-item { /* padding: 15rem 23rem 15rem 23rem; */ /* background-color: grey; */ /* border: 1px solid black; */ margin: 0rem; }
+.project-grid .grid-item { /* padding: 15rem 23rem 15rem 23rem; */ /* background-color: grey; */ /* border: 1px solid black; */position: relative; }
 
-.project-grid .grid-item .project-image { /* position: relative; */ width: 46em; }
+.project-grid .grid-item img { max-width: 1000px; max-height: auto; object-fit: cover; }
 
-.project-grid .grid-item img { width: 100%; height: auto; object-fit: cover; position: relative; }
+/* .project-grid .grid-item img:hover { opacity: 0.2; } */
 
-.project-grid .grid-item img:hover { opacity: 0.2; }
-
-.project-grid .grid-item:hover .overlay-one { opacity: 1; }
+/* .project-grid .grid-item:hover .overlay-one { opacity: 1; }
 
 .project-grid .grid-item:hover .overlay-two { opacity: 1; }
 
-.project-grid .grid-item:hover .overlay-three { opacity: 1; }
+.project-grid .grid-item:hover .overlay-three { opacity: 1; } */
 
 /* hover for text on overlay to affect image transparency */
 .project-grid .grid-item:hover img { opacity: 0.2; }
 
 /* overlay */
-.overlay-one { position: absolute; top: 48rem; left: 13rem; opacity: 0; }
+.overlay-title{
+  position: absolute;
+  bottom: 30px;
+  left: 23px;
+}
+.overlay-description{
+  position: absolute;
+  bottom: 6px;
+  left: 23px;
+}
 
-.overlay-one:hover { opacity: 1; }
+.overlay-one {position: absolute; opacity: 0; top: 0; bottom: 0; right: 0; left: 0; transition: 0.2s ease-out;}
 
-.overlay-two { position: absolute; top: 48rem; left: 65rem; opacity: 0; }
+.overlay-one:hover { opacity: 1; transition: 0.3s ease;}
+
+/* .overlay-two { position: absolute; opacity: 0; }
 
 .overlay-two:hover { opacity: 1; }
 
-.overlay-three { position: absolute; top: 108rem; left: 39rem; opacity: 0; }
+.overlay-three { position: absolute; opacity: 0; }
 
-.overlay-three:hover { opacity: 1; }
+.overlay-three:hover { opacity: 1; } */
 
 /* Overview Project Page ends here */
 /* project descriptions */
