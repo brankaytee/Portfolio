@@ -212,7 +212,6 @@ nav a:hover{
   padding-bottom: 3rem;
 }
 
-/* #typography .item-wrapper .heading-wrapper #top-heading h2{ color: #91accf; } #typography .item-wrapper .heading-wrapper #top-heading h3{ color: #91accf; } */
 /* navigation section */
 #navigation h2{
   padding-bottom: 10rem;
@@ -230,11 +229,7 @@ nav a:hover{
   margin-bottom: 8rem;
 }
 
-#images img{
-  max-width: 66.5rem;
-}
-
-#images h2{
+.heading-section h2{
   padding-bottom: 10rem;
 }
 
@@ -243,8 +238,10 @@ nav a:hover{
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
 #images .grid-item{
+  position: relative;
+}
+#images .grid-item img{
   max-width: 1000px;
   max-height: auto;
   object-fit: cover;
@@ -263,7 +260,7 @@ nav a:hover{
   bottom: 0;
   right: 0;
   left: 0;
-  transition: 0.2s ease-out
+  transition: 0.2s ease-out;
 }
 
 .overlay-one:hover{
@@ -273,7 +270,7 @@ nav a:hover{
 
 .overlay-title{
   position: absolute;
-  bottom: 30px;
+  bottom: 50px;
   left: 23px;
 }
 
@@ -361,7 +358,6 @@ nav a:hover{
   margin-bottom: 2rem;
 }
 
-/* nav a{ color: #ababab; padding-right: 5rem; font-size: 1.25rem; } nav a:hover{ color: #56667a; } */
 /* flexibility */
 @media only screen and (max-width: 1000px) {
   body, html{
