@@ -61,8 +61,8 @@ flex-wrap: wrap;
 }
 
 .project-grid .grid-item img{
-  max-width: 1000px;
-  max-height: auto;
+  max-width: 1063px;
+  max-height: 900px;
   object-fit: cover;
 }
 .project-grid .grid-item:hover img{
@@ -120,7 +120,7 @@ flex-wrap: wrap;
 }
 
 .project-detail .finished-project img {
-  max-width: 75rem;
+  width: 2208px;
 }
 
 .project-detail .process-wrapper{
