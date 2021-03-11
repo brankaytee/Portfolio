@@ -66,7 +66,8 @@ flex-wrap: wrap;
   object-fit: cover;
 }
 .project-grid .grid-item:hover img{
-  opacity: 0.2;
+  /* opacity: 0.75; */
+  filter: brightness(70%);
 }
 
 /* overlay */
@@ -83,15 +84,30 @@ flex-wrap: wrap;
 
 .overlay-one{
   position: absolute;
-  opacity: 0;
+  opacity: 1;
   top: 0;
-  bottom: 0;
+  bottom: -160px;
   right: 0;
-  left: 0;
+  left: -26px;
   transition: 0.2s ease-out;
 }
 
 .overlay-one:hover{
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
+.overlay-two{
+  position: absolute;
+  opacity: 1;
+  top: 0;
+  bottom: 130px;
+  right: 0;
+  left: -26px;
+  transition: 0.2s ease-out;
+}
+
+.overlay-two:hover{
   opacity: 1;
   transition: 0.3s ease;
 }

@@ -15,7 +15,8 @@
 
 body{
   font-family: MonsterratRegular;
-  background-color: #000000;
+  /* background-color: #000000; */
+  background-color: #f5f5f5;
 }
 
 h1{
@@ -33,12 +34,16 @@ h1{
 h2{
   font-family: AvenirNextBold;
   font-size: 3rem;
-  color: #b2b6bf; }
+  /* color: #b2b6bf; */
+  color: #9599a3;
+}
 
 h3{
   font-family: AvenirNextRegular;
   font-size: 1.5rem;
-  color: #b2b6bf; }
+  /* color: #b2b6bf; */
+    color: #9599a3;
+}
 
 h4{
   font-family: AvenirNextRegular;
@@ -46,7 +51,8 @@ h4{
 
 p{
   font-family: MonsterratRegular;
-  color: #b2b6bf;
+  /* color: #b2b6bf; */
+  color: #848891;
   font-size: 1rem;
   line-height: 1.5rem;
 }
@@ -61,7 +67,8 @@ a{
 
 ul{
   margin-top: 10rem;
-  color: #b2b6bf;
+  /* color: #b2b6bf; */
+  color: #848891;
   font-size: 1rem;
   line-height: 1.5rem;
 }
@@ -82,7 +89,8 @@ nav{
 }
 
 nav a{
-  color: #ababab;
+  /* color: #ababab; */
+  color: #949494;
   padding-right: 5rem;
   font-size: 1.25rem;
 }
@@ -303,20 +311,20 @@ nav a:hover{
 
 /* buttons */
 .button-confirm{
-  border: 2px solid #ffffff;
+  border: 2px solid #56667a;
   padding: 0.75em;
   padding-left: 6.5em;
   padding-right: 6.5em;
   text-align: center;
   font-weight: bold;
-  color: #ffffff;
+  color: #56667a;
   box-sizing: border-box;
 }
 
 .button-confirm:hover{
-  background-color: #ffffff;
-  border: 2px solid #6179d4;
-  color: #6179d4;
+  background-color: #56667a;
+  /* border: 2px solid #6179d4; */
+  color: #ffffff;
 }
 
 .button-cancel{
@@ -332,7 +340,7 @@ nav a:hover{
 
 .button-cancel:hover{
   background-color: #6179d4;
-  border: 2px solid #ffffff;
+  /* border: 2px solid #6e7178; */
   color: #ffffff;
 }
 
