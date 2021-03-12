@@ -53,7 +53,7 @@ h4{
 p{
   font-family: MonsterratRegular;
   /* color: #b2b6bf; */
-  color: #848891;
+  color: #6e727a;
   font-size: 1rem;
   line-height: 1.5rem;
 }
@@ -91,12 +91,19 @@ nav{
 
 nav a{
   /* color: #ababab; */
-  color: #949494;
+  color: #808287;
   padding-right: 5rem;
   font-size: 1.25rem;
 }
 
 nav a:hover{
+  color: #56667a;
+}
+
+#footer a{
+  color: green;
+}
+#footer a:hover{
   color: #56667a;
 }
 
