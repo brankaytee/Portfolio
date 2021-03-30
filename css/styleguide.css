@@ -36,14 +36,14 @@ h2{
   font-family: AvenirNextBold;
   font-size: 3rem;
   /* color: #b2b6bf; */
-  color: #9599a3;
+  color: #70788a;
 }
 
 h3{
   font-family: AvenirNextRegular;
   font-size: 1.5rem;
   /* color: #b2b6bf; */
-    color: #9599a3;
+    color: #70788a;
 }
 
 h4{
@@ -101,7 +101,7 @@ nav a:hover{
 }
 
 #footer a{
-  color: green;
+  /* color: blue; */
 }
 #footer a:hover{
   color: #56667a;
@@ -123,8 +123,17 @@ nav a:hover{
   padding-top: 5rem;
 }
 
+#colors .item-wrapper #first-color{
+  background-color: #6179d4;
+  flex-basis: 100%;
+}
+
+#colors .item-wrapper #first-color p{
+  color: #000000;
+}
+
 #colors .item-wrapper #second-color{
-  background-color: #4256a1;
+  background-color: #56667a;
   flex-basis: 100%;
 }
 
@@ -141,8 +150,8 @@ nav a:hover{
   color: #000000;
 }
 
-#colors .item-wrapper #fourth-color{
-  background-color: #b2b6bf;
+#colors .item-wrapper #fourth-color {
+  background-color: #6e727a;
   flex-basis: 100%;
 }
 
@@ -151,20 +160,11 @@ nav a:hover{
 }
 
 #colors .item-wrapper #fifth-color {
-  background-color: #ffffff;
+  background-color: #808287;
   flex-basis: 100%;
 }
 
 #colors .item-wrapper #fifth-color p{
-  color: #000000;
-}
-
-#colors .item-wrapper #ab-color {
-  background-color: #ababab;
-  flex-basis: 100%;
-}
-
-#colors .item-wrapper #ab-color p{
   color: #000000;
 }
 
@@ -195,30 +195,31 @@ nav a:hover{
 
 #color-pack-one p {
   background-color: #70788a;
-  color: #000000; padding: 1rem;
+  color: #f7f7f7;
+  padding: 1rem;
   width: 6rem;
   text-align: center;
 }
 
 #typography .item-wrapper .heading-wrapper #color-pack-two p{
-  background-color: #b2b6bf;
-  color: #000000;
+  background-color: #70788a;
+  color: #f7f7f7;
   padding: 1rem;
   width: 6rem;
   text-align: center;
 }
 
 #typography .item-wrapper .heading-wrapper #color-pack-three p{
-   background-color: #b2b6bf;
-   color: #000000;
+   background-color: #70788a;
+   color: #f7f7f7;
    padding: 1rem;
    width: 6rem;
    text-align: center;
  }
 
 #typography .item-wrapper .heading-wrapper #color-pack-four p{
-   background-color: #b2b6bf;
-   color: #000000;
+   background-color: #6e727a;
+   color: #f7f7f7;
    padding: 1rem;
    width: 6rem;
    text-align: center;
@@ -264,12 +265,12 @@ nav a:hover{
 }
 
 /* hover for text on overlay to affect image transparency */
-#images .grid-item:hover img{
-  opacity: 0.2;
+#images .clickable:hover img{
+  filter: brightness(70%);
 }
 
 /* overlay */
-.overlay-one{
+/* .overlay-one{
   position: absolute;
   opacity: 0;
   top: 0;
@@ -277,14 +278,14 @@ nav a:hover{
   right: 0;
   left: 0;
   transition: 0.2s ease-out;
-}
+} */
 
 .overlay-one:hover{
   opacity: 1;
   transition: 0.3s ease;
 }
 
-.overlay-title{
+/* .overlay-title{
   position: absolute;
   bottom: 50px;
   left: 23px;
@@ -294,7 +295,7 @@ nav a:hover{
   position: absolute;
   bottom: 6px;
   left: 23px;
-}
+} */
 
 /* image section ends here */
 /* button section */
