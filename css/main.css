@@ -56,16 +56,19 @@ margin: 0 auto;
   display: flex;
   justify-content: space-between;
   margin: 0rem 10rem 0rem 10rem;
+  flex-wrap: wrap;
   /* grid-gap: 5rem; */
 }
+
+
 
 /* .project-grid .grid-item {
   position: relative;
 } */
 .grid-item img{
-  min-width: 700px;
-  max-width: 1000px;
-  max-height: 1000px;
+  max-width: 60rem;
+  /* max-width: 55rem; */
+  /* max-height: 40rem; */
   object-fit: cover;
 }
 .clickable:hover img{
