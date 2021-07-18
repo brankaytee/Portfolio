@@ -251,11 +251,11 @@ nav a:hover{
   flex-wrap: wrap;
 }
 #images .grid-item{
-  position: relative;
+  /* position: relative; */
 }
 #images .grid-item img{
-  max-width: 1000px;
-  max-height: auto;
+  max-width: 50rem;
+  /* max-height: auto; */
   object-fit: cover;
 }
 
@@ -313,8 +313,8 @@ nav a:hover{
 .button-cancel{
   border: 2px solid #6179d4;
   padding: 0.75em;
-  padding-left: 5.8em;
-  padding-right: 5.8em;
+  padding-left: 5.5em;
+  padding-right: 5.5em;
   text-align: center;
   font-weight: bold;
   color: #6179d4;
@@ -441,12 +441,21 @@ nav a:hover{
   #navigation .item-wrapper nav{
     flex-direction: column;
   }
+  #images .heading-section h2{
+    text-align: center;
+  }
   #images h2{
     padding-bottom: 0;
-    text-align: center;
+    /* text-align: center; */
   }
   #images{
     padding-bottom: 3rem;
+  }
+  #images .grid-item{
+    max-width: 29rem;
+  }
+  #images .grid-item img{
+    max-width: 29rem;
   }
   #footer{
     flex-direction: column;
