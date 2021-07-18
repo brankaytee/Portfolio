@@ -42,21 +42,19 @@
 }
 
 .program-labels {
-display: flex;
-justify-content: space-around;
-align-items: center;
-width: 75rem;
-margin: 0 auto;
-
+  display: flex;
+  justify-content: space-around;
+  max-width: 75rem;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 /* End of about page */
 /* Project Page */
 .project-grid {
   display: flex;
-  justify-content: space-between;
-  margin: 0rem 10rem 0rem 10rem;
-  flex-wrap: wrap;
+  justify-content: space-around;
+  /* margin: 0rem 10rem 0rem 10rem; */
   /* grid-gap: 5rem; */
 }
 
@@ -66,7 +64,7 @@ margin: 0 auto;
   position: relative;
 } */
 .grid-item img{
-  max-width: 60rem;
+  max-width: 59rem;
   /* max-width: 55rem; */
   /* max-height: 40rem; */
   object-fit: cover;
@@ -248,7 +246,7 @@ margin: 0 auto;
     margin-top: 5rem;
   }
   .progam-labels{
-    flex-direction: column; /* margin-left: 0; margin-right: 0; */ align-items: center;
+    flex-direction: column;
   }
   .program-labels p{
     flex-basis: 100%;
@@ -275,5 +273,11 @@ margin: 0 auto;
   }
   #project3 .finished-project-second img{
     max-width: 25rem;
+    }
+
+    /* 3D model project page */
+    .project-grid .grid-item img{
+      max-width: 25rem;
+      margin-top: 5rem;
     }
   }
