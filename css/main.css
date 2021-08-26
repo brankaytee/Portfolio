@@ -51,9 +51,10 @@
 
 /* End of about page */
 /* Project Page */
-.project-grid {
+#model-projects{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   /* margin: 0rem 10rem 0rem 10rem; */
   /* grid-gap: 5rem; */
 }
@@ -69,6 +70,23 @@
   /* max-height: 40rem; */
   object-fit: cover;
 }
+#graphics{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+#graphics .grid-item:nth-child(1) img{
+  max-width: 45rem;
+}
+#graphics .grid-item:nth-child(2) img{
+  max-width: 29rem;
+}
+#graphics .grid-item:nth-child(3) img{
+  max-width: 24rem;
+}
+
+
 .clickable:hover img{
   /* opacity: 0.75; */
   filter: brightness(70%);
@@ -193,14 +211,14 @@
 
 /* contact page */
 #contact{
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 #contact .contact-wrapper{
   min-width: 30rem;
   text-align: center;
+  justify-content: space-around;
 }
 
 #contact .contact-wrapper i{
@@ -218,12 +236,41 @@
 }
 
 /* flexibility */
-@media only screen and (max-width: 1000px) { /* banner */
+
+/* 1920x1080p */
+@media only screen and (max-width: 1920px){
+
+  /* headers */
   h1{
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   h2{
+    font-size: 2rem;
+  }
+  /* graphic design section */
+  #graphics .grid-item:nth-child(1) img{
+    max-width: 26rem;
+  }
+  #graphics .grid-item:nth-child(2) img{
+    max-width: 18rem;
+  }
+  #graphics .grid-item:nth-child(3) img{
+    max-width: 14rem;
+  }
+
+  /* 3D model Section */
+  .grid-item img{
+    max-width: 39rem;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 1000px) { /* banner */
+  h1{
     font-size: 2.5rem;
+  }
+  h2{
+    font-size: 2rem;
   }
   /* project description */
   .project-buttons{
@@ -265,19 +312,44 @@
   /* .overlay-one{
     display: none;
   } */
+  /* Finished Project Images */
   .project-detail .finished-project img{
-    max-width: 30rem;
+    max-width: 23rem;
   }
+  /* business card finished detailed images */
   #project3 .finished-project-first img{
     max-width: 25rem;
   }
   #project3 .finished-project-second img{
     max-width: 25rem;
     }
-
-    /* 3D model project page */
-    .project-grid .grid-item img{
-      max-width: 29rem;
-      margin-top: 5rem;
-    }
+  /* 3D model Section */
+  .project-grid .grid-item img{
+    max-width: 25rem;
+    margin-top: 1rem;
   }
+
+  /* Graphic Design page */
+  /* .project-grid .grid-item img{
+    max-width: 29rem;
+    margin-top: 5rem;
+  } */
+  #graphics{
+    align-items: center;
+  }
+  #graphics .grid-item:nth-child(1) img{
+    max-width: 23rem;
+  }
+  #graphics .grid-item:nth-child(2) img{
+    max-width: 23rem;
+  }
+  #graphics .grid-item:nth-child(3) img{
+    max-width: 23rem;
+  }
+
+  /* contact */
+  #contact .contact-wrapper{
+      align-items: center;
+      justify-content: space-around;
+    }
+}
